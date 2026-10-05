@@ -1,3 +1,0 @@
-temporary notes while setting up the pipeline
-- check gdrive folder id before first push
-- remember to activate venv
