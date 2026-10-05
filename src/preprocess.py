@@ -11,8 +11,8 @@ y_train = np.load("data/raw/y_train.npy")
 x_test  = np.load("data/raw/x_test.npy")
 y_test  = np.load("data/raw/y_test.npy")
 
-x_train = x_train / 255.0
-x_test  = x_test  / 255.0
+x_train = x_train / 200.0
+x_test  = x_test  / 200.0
 
 split = int(len(x_train) * (1 - params["preprocess"]["test_size"]))
 x_val, y_val = x_train[split:], y_train[split:]
