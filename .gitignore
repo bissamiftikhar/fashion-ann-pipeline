@@ -1,5 +1,3 @@
-
-clear
 venv/
 __pycache__/
 .dvc/cache
